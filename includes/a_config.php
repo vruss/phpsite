@@ -16,6 +16,10 @@ switch ($_SERVER["SCRIPT_NAME"])
         $CURRENT_PAGE = "Contact";
         $PAGE_TITLE = "Contact Us";
         break;
+    case "/scrape.php":
+        $CURRENT_PAGE = "Scrape";
+        $PAGE_TITLE = "Scrape";
+        break;
     case "/mysql.php":
         $CURRENT_PAGE = "MySQL";
         $PAGE_TITLE = "MySQL Tests";

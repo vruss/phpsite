@@ -10,6 +10,9 @@
             <a class="nav-link <?php if ($CURRENT_PAGE == "Contact") {?>active<?php }?>" href="contact.php">Contact</a>
         </li>
         <li class="nav-item">
+            <a class="nav-link <?php if ($CURRENT_PAGE == "Scrape") {?>active<?php }?>" href="scrape.php">Scrape</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link <?php if ($CURRENT_PAGE == "MySQL") {?>active<?php }?>" href="mysql.php">MySQL</a>
         </li>
     </ul>
